@@ -9,7 +9,10 @@ bun install
 To run:
 
 ```bash
-bun run index.ts
+bun start
 ```
 
-This project was created using `bun init` in bun v0.6.3. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+# Expected error
+
+> SyntaxError: Import named 'formatWithOptions' not found in module 'node:util'.
+> error: script "start" exited with code 1 (SIGHUP)
